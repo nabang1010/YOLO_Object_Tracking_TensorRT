@@ -1,6 +1,6 @@
 <div align="center">
 
-# YOLOv8 Object Tracking TensorRT
+# YOLO Object Tracking TensorRT
 
 </div>
 

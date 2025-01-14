@@ -175,3 +175,5 @@ tracking_bytetrack_output.txt
 run_bt.py
 *.llc
 *.webm
+
+.idea
