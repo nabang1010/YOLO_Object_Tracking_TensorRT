@@ -13,3 +13,6 @@
 [submodule "refs/ByteTrack"]
 	path = refs/ByteTrack
 	url = https://github.com/ifzhang/ByteTrack.git
+[submodule "refs/BoostTrack"]
+	path = refs/BoostTrack
+	url = https://github.com/vukasin-stanojevic/BoostTrack
