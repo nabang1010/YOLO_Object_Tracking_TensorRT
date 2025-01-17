@@ -22,9 +22,10 @@ Support for both **NVIDIA dGPU** and **Jetson** devices.
 ### Both OpenCV YOLOv8 and DeepSORT TensorRT
 Using OpenCV to capture video from camera or video file, then use YOLOv8 TensorRT to detect objects and DeepSORT TensorRT to track objects.
 
-| Model | Device | FPS |
-| --- | --- | --- |
-| OpenCV + YOLOv8n + DeepSORT | NVIDIA dGPU GTX 1660Ti 6Gb| ~ |
+| Model | Device                      | FPS |
+| --- |-----------------------------| --- |
+| OpenCV + YOLOv8n + DeepSORT | NVIDIA dGPU GTX 1660Ti 6Gb  | ~ |
+| OpenCV + YOLOv8n + DeepSORT | NVIDIA dGPU RTX 4060Ti 16Gb | ~ |
 | OpenCV + YOLOv8n + DeepSORT | NVIDIA Jetson Xavier NX 8Gb | ~ |
 | OpenCV + YOLOv8n + DeepSORT | NVIDIA Jetson Orin Nano 8Gb | ~34 |
 
@@ -39,6 +40,7 @@ Test speed of YOLOv8 TensorRT model using `trtexec` from TensorRT
 | Model | Device | Throughput (qps) | Latency(ms) |
 | --- | --- | --- | --- |
 | `yolov8n.engine` | NVIDIA dGPU GTX 1660Ti 6Gb| ~419.742 | ~2.91736 |
+| `yolov8n.engine` | NVIDIA dGPU RTX 4060Ti 16Gb | ~ | ~ |
 | `yolov8n.engine` | NVIDIA Jetson Xavier NX 8Gb | ~ | ~ |
 | `yolov8n.engine` | NVIDIA Jetson Orin Nano 8Gb | ~137.469 | ~137.469 |
 
@@ -52,7 +54,8 @@ Test speed of DeepSORT TensorRT model using `trtexec` from TensorRT
 
 | Model | Device | Throughput (qps) | Latency(ms) |
 | --- | --- | --- | --- |
-| `deepsort.engine` | NVIDIA dGPU GTX 1660Ti 6Gb| ~614.738 | ~1.52197 | 
+| `deepsort.engine` | NVIDIA dGPU GTX 1660Ti 6Gb| ~614.738 | ~1.52197 |
+| `deepsort.engine` | NVIDIA dGPU RTX 4060Ti 16Gb | ~ | ~ |
 | `deepsort.engine` | NVIDIA Jetson Xavier NX 8Gb | ~ | ~ |
 | `deepsort.engine` | NVIDIA Jetson Orin Nano 8Gb | ~546.135 | ~1.82227 |
 
@@ -210,6 +213,6 @@ python3 yolov8_bytetrack_trt.py --show
 - [deepsort_tensorrt](https://github.com/GesilaA/deepsort_tensorrt)
 - [yolov5_deepsort_tensorrt](https://github.com/cong/yolov5_deepsort_tensorrt)
 - [ByteTrack](https://github.com/ifzhang/ByteTrack)
-
+- [BoostTrack](https://github.com/vukasin-stanojevic/BoostTrack)
 
 
