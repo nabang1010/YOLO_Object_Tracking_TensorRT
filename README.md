@@ -211,5 +211,12 @@ python3 yolov8_bytetrack_trt.py --show
 - [yolov5_deepsort_tensorrt](https://github.com/cong/yolov5_deepsort_tensorrt)
 - [ByteTrack](https://github.com/ifzhang/ByteTrack)
 
+# Star History
 
-
+<a href="https://www.star-history.com/#nabang1010/YOLO_Object_Tracking_TensorRT&Date">
+ <picture>
+   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/svg?repos=nabang1010/YOLO_Object_Tracking_TensorRT&type=Date&theme=dark" />
+   <source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/svg?repos=nabang1010/YOLO_Object_Tracking_TensorRT&type=Date" />
+   <img alt="Star History Chart" src="https://api.star-history.com/svg?repos=nabang1010/YOLO_Object_Tracking_TensorRT&type=Date" />
+ </picture>
+</a>
